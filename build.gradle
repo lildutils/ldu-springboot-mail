@@ -13,7 +13,6 @@ repositories {
 }
 
 dependencies {
-	compile group: 'org.springframework', name: 'spring-core', version: '5.2.2.RELEASE'
 	compile group: 'org.springframework', name: 'spring-context', version: '5.2.2.RELEASE'
 	compile group: 'org.springframework', name: 'spring-beans', version: '5.2.2.RELEASE'
 	compile group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
