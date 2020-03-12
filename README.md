@@ -14,6 +14,8 @@
 ```properties
 # application.properties
 
+ldu.mail-sender.templates-html.path=stringValue
+
 spring.mail.host=stringValue
 spring.mail.port=numberValue
 spring.mail.username=stringValue
@@ -25,6 +27,11 @@ spring.mail.properties.mail.smtp.starttls.enable=booleanValue
 
 ```yaml
 # application.yml
+
+ldu:
+  mail-sender:
+    templates-html
+      path: stringValue
 
 spring:
   mail:
